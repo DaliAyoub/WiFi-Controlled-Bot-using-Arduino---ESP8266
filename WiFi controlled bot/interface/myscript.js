@@ -23,7 +23,7 @@ function checkKeyDown(e) {
 
     e = e || window.event;
 
-    if (e.keyCode == '38') {
+    if (e.keyCode == '38') { //38 is jeycode for up arrow, likewise the following values are set
         // up arrow
 		if (latch == false) {
 			TextVar = myform2.inputbox.value;
